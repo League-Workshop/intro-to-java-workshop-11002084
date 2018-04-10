@@ -7,7 +7,17 @@ public class MyFirstJavaProgram {
 	
 	public static void main(String[] args) {
 		
-		// START HERE
+		Robot Steve=new Robot();
+		Steve.moveTo(100,500);
+		Steve.setRandomPenColor();
+		Steve.setPenWidth(5);
+		Steve.penDown();
+		Steve.setSpeed(200);
+		for(int i=0; i<100; i++) {
+		Steve.move(500);
+		Steve.turn(90);
+		}
+		
 	
 		
 		
